@@ -5,7 +5,7 @@ function multiplications(){
         document.getElementById('table').innerHTML= "";
     for (i=1; i<=10; i++) {
     rep=entrer*i;
-    document.getElementById('table').innerHTML+= " " + entrer+ "x" +i+" = "+rep + "<br>";
+    document.getElementById('table').innerHTML+= " " + entrer+ "&nbsp;&nbsp;&nbsp; x &nbsp;&nbsp;&nbsp;" +i+ "&nbsp;&nbsp;&nbsp = &nbsp;&nbsp;&nbsp"+rep + "<br>";
     }
      }else{
         eleman.setAttribute("disabled", false);
